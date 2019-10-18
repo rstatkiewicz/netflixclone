@@ -1,0 +1,31 @@
+body {
+    background-color: pink;
+}
+
+#buttons {
+    padding-left: 25px;
+    padding-right: 25px;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, .5)
+}
+
+.logo {
+    float: left;
+    margin: 10px;
+    background-color: yellow;
+    font-size: 24px;
+}
+
+.leftMenu {
+    float: left;
+    margin: 10px;
+    background-color: yellow;
+    font-size: 24px;
+}
+
+.rightMenu {
+    float: right;
+    margin: 10px;
+    background-color: yellow;
+    font-size: 24px;
+}
