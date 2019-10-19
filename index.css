@@ -1,6 +1,5 @@
 body {
     background-color: pink;
-    background: <img src="images/holly.jpg" width=100%>;
 }
 
 #buttons {
@@ -53,4 +52,13 @@ body {
     background-color: gray;
     margin: 10px;
     display: inline-block;
+}
+
+#tiledBackground {
+    background: url(https://www.goodfreephotos.com/albums/united-states/california/los-angeles/hollywood-looking-down-at-los-angeles-california.jpg) no-repeat left center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 200px 25px;
 }
