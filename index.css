@@ -1,5 +1,6 @@
 body {
     background-color: pink;
+    background: <img src="images/holly.jpg" width=100%>;
 }
 
 #buttons {
@@ -28,4 +29,12 @@ body {
     margin: 10px;
     background-color: yellow;
     font-size: 24px;
+}
+
+.holly {
+    position: relative;
+}
+
+.netflix {
+    display: inline-block;
 }
