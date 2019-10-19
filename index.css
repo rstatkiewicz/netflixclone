@@ -55,10 +55,81 @@ body {
 }
 
 #tiledBackground {
-    background: url(https://www.goodfreephotos.com/albums/united-states/california/los-angeles/hollywood-looking-down-at-los-angeles-california.jpg) no-repeat left center fixed;
+    background: url(https://www.goodfreephotos.com/albums/united-states/california/los-angeles/hollywood-looking-down-at-los-angeles-california.jpg) no-repeat right center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     padding: 200px 25px;
+}
+
+#videoSection {
+    width: 100%;
+    background: black;
+}
+
+.row {
+    width: 100%;
+}
+
+.videoBoxes {
+    width: 14%;
+    display: inline-block;
+    margin: 2%;
+    height: 150px;
+}
+
+.video1 {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/John_Rambo.jpg/397px-John_Rambo.jpg) no-repeat right center fixed;
+    max-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    padding-left: 25px;
+}
+
+.video2 {
+    background: url(https://c.pxhere.com/images/89/c0/622da6f3db91de7eec77bc936dcc-1418912.png!d) no-repeat right center fixed;
+    max-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    padding-left: 25px;
+}
+
+.video3 {
+    background: url(https://live.staticflickr.com/4903/32147796718_947b9fdfee_b.jpg) no-repeat right center fixed;
+    max-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    padding-left: 25px;
+}
+
+.video4 {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Macaulay_Culkin_1991_B.jpg/437px-Macaulay_Culkin_1991_B.jpg) no-repeat right center fixed;
+    max-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    padding-left: 25px;
+}
+
+.video5 {
+    background: url(https://live.staticflickr.com/2085/2079118961_08150e7b12_c.jpg) no-repeat right center fixed;
+    max-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    padding-left: 25px;
 }
